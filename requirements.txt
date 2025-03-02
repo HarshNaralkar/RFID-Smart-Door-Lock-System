@@ -1,0 +1,4 @@
+pyserial
+smtplib
+email
+opencv-python
