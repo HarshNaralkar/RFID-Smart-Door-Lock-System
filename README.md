@@ -12,10 +12,10 @@ This project implements an RFID-based door lock system using Arduino, integratin
 - Computer for Serial Communication  
 
 ## Lock Structure
-![Lock Structure](LockStructure.jpg)
+![Lock Structure](/Images/LockStructure.jpg)
 
 ## Door Structure
-![Door Structure](View.jpg)
+![Door Structure](/Images/View.jpg)
 
 ## Connection Tables  
 ### RFID Module Connections  
@@ -52,7 +52,7 @@ This project implements an RFID-based door lock system using Arduino, integratin
 | Signal  | 4          |
 
 ## Connections Diagram
-![Connection Diagram](Connection.jpg)
+![Connection Diagram](/Images/Connection.jpg)
 
 ## **C++ (Arduino) Libraries Required:**
 1. **`SPI.h`** – Required for SPI communication with the RFID module.  
