@@ -45,6 +45,31 @@ This project implements an RFID-based door lock system using Arduino, integratin
 | GND     | GND        |
 | Signal  | 4          |
 
+
+## **C++ (Arduino) Libraries Required:**
+1. **`SPI.h`** – Required for SPI communication with the RFID module.  
+2. **`MFRC522.h`** – Library for interfacing with the RFID (MFRC522) module.  
+3. **`Servo.h`** – For controlling the servo motor that locks/unlocks the door.  
+4. **`Wire.h`** – Required for I2C communication with the LCD display.  
+5. **`LiquidCrystal_I2C.h`** – Library for controlling the I2C-based LCD.  
+
+## **How to Install the Libraries in Arduino IDE**
+1. Open **Arduino IDE**.
+2. Go to **Sketch** > **Include Library** > **Manage Libraries**.
+3. Search for the required libraries and install them:
+   - **"MFRC522"** by Miguel Balboa
+   - **"Servo"** by Arduino
+   - **"LiquidCrystal I2C"** by Frank de Brabander
+
+## **Python Libraries Required:**
+1. `pyserial` – For reading data from the Arduino via serial communication.
+2. `smtplib` – For sending email alerts when unauthorized access is detected.
+3. `email` – For email message formatting.
+4. `OpenCV-python` – For playing warning videos in case of unauthorized access.
+5. `time` – For handling delays (built-in, no need to install).
+6. `os` – For file handling operations (built-in, no need to install).
+7. `sys` – For system-specific functions (built-in, no need to install).
+
 ## Functionality  
 - RFID authentication is used to control door access.  
 - A servo motor locks/unlocks the door based on valid card scans.  
