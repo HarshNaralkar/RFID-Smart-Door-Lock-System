@@ -40,16 +40,15 @@ This project implements an RFID-based door lock system using Arduino, integratin
 ### Servo Motor Connection  
 | Servo Pin | Arduino Pin |
 |-----------|------------|
-| VCC       | 5V         |
+| VCC      | 5V         |
 | GND       | GND        |
-| Signal    | 3          |
+| Yellow    | 3          |
 
-### LED Indicator Connection  
+### LED Connection  
 | LED Pin | Arduino Pin |
 |---------|------------|
-| VCC     | 5V         |
-| GND     | GND        |
-| Signal  | 4          |
+| Nagative| GND        |
+| Positive| 4          |
 
 ## Connections Diagram
 ![Connection Diagram](/Images/Connection.jpg)
