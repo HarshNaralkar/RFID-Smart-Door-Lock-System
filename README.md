@@ -12,8 +12,9 @@ This project implements an RFID-based door lock system using Arduino, integratin
 - Computer for Serial Communication  
 
 ## Lock Structure
-![Lock Structure](Lock Structure.jpg)
+![Lock Structure](LockStructure.jpg)
 
+![Door Structure](view.jpg)
 
 ## Connection Tables  
 ### RFID Module Connections  
