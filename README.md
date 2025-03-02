@@ -11,6 +11,10 @@ This project implements an RFID-based door lock system using Arduino, integratin
 - LED Indicator  
 - Computer for Serial Communication  
 
+## Lock Structure
+![Lock Structure](Lock Structure.jpg)
+
+
 ## Connection Tables  
 ### RFID Module Connections  
 | RFID Pin | Arduino Pin |
